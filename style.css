@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(82, 82, 85);
+}
+
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 20%;
+  }
+
+  .navbar {
+    background-color:transparent;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+
+
+  .navbar h2{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 0 15px;
+  }
+
+  /* Style the links inside the navbar */
+  .navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+form{
+    width: 40%;
+    background: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin:5rem 3rem 3rem 3rem;
+    float: left;
+    z-index: 1;
+    border: #b1a0f1 5px solid;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+}
+
+button{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #7e46ee;
+    color: #fefefe;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#weather-report{
+    width: 50%;
+    color: #000000;
+    background: #ffffff;
+    padding:1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin:5rem 0 0 0;
+    float: left;
+    border: #b1a0f1 5px solid;
+    
+}
+.footer {
+    background-color: #f2f2f2;
+    margin-top: 680px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }

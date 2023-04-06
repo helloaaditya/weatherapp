@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Guru</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="source/snowfall-29314.mp4" type="video/mp4">
+    </video>
+
+    <div class="navbar">
+        <div class="logo">
+          <h2>Weather-Guru</h2>
+        </div>
+        <a href="#home">Home</a>
+        <a href="#weather">Weather</a>
+        <a href="#forecast">Forecast</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    <form>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter City Name" required>
+
+        <br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" placeholder="Enter Country Name" required>
+        <br>
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <div id="weather-report"></div>
+
+    <script src="index.js"></script>
+
+    <div class="footer">
+        <p>&copy; 2023 Weather-Guru</p>
+      </div>
+</body>
+
+</html>
